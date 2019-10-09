@@ -5,6 +5,9 @@ build: source-repo docs indexes fix-links
 all: build push
 
 
+build-tools:
+	./make-build-tools.sh
+
 source-repo:
 	./get-source-repo.sh
 
@@ -25,3 +28,6 @@ push:
 
 clean:
 	./make-clean.sh
+
+distclean:
+	./make-distclean.sh
