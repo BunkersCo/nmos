@@ -1,3 +1,3 @@
 # NMOS FAQs
 
-The FAQ page has now moved to the [NMOS Wiki](https://github.com/AMWA-TV/nmos/wiki/FAQ).
+The FAQ page has now moved to the [NMOS Wiki](https://amwa-tv.github.io/nmos/wiki/FAQ).

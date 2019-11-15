@@ -2,7 +2,7 @@
 
 _(c) AMWA 2018, CC Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)_
 
-For the latest version of this document please go to <https://github.com/AMWA-TV/nmos>.
+For the latest version of this document please go to <https://amwa-tv.github.io/nmos>.
 
 * A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
 {:toc}
@@ -173,8 +173,8 @@ To see the GitHub _repository_ that contains the source for the specification, c
 
 The NMOS Interface Specications (IS-04 etc.) are layed out as below, where the directory names refer to what is in the repo:
 
-* `/APIs/`: RAML API definitions
-  * `/APIs/schemas/`: JSON Schemas referenced from the RAML
+* `/html-APIs/`: RAML API definitions
+  * `/html-APIs/schemas/with-refs/`: JSON Schemas referenced from the RAML
 * `/examples/`: Example API messages
 * `/docs/`: Normative and supporting documents, starting with an Overview.
 

@@ -1,8 +1,8 @@
-# Networked Media Open Specifications
-
 NMOS is a family name for specifications produced by the [Advanced Media Workflow Association](https://www.amwa.tv) related to networked media for professional applications.
 
 Here you will find general information about these Specifications – start with the [Technical Overview](branches/master/NMOS_Technical_Overview.md).
+
+Further information to help developers and users can be found at <https://github.com/AMWA-TV/nmos/wiki>.
 
 The table below lists the current specifications and provides links to their repositories on [github.com/AMWA-TV](https://github.com/AMWA-TV/) and documentation on [amwa-tv.github.io](https://amwa-tv.github.io). The "Version" links will take you to the documentation and download page (↓) for the latest release of recent versions of the specification.
 
@@ -21,6 +21,3 @@ BCP-003-01 | [API Security: Communications](https://amwa-tv.github.io/nmos-api-s
 BCP-003-02 | [API Security: Authorization](https://amwa-tv.github.io/nmos-api-security/best-practice-authorisation.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
 n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/) | Continuing  | | [nmos-parameter-registers](https://github.com/AMWA-TV/nmos-parameter-registers)
 
-## Further reading: NMOS Wiki
-
-Further information to help developers and users can be found at <https://github.com/AMWA-TV/nmos/wiki>.
