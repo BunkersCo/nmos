@@ -2,8 +2,9 @@
 
 # {{ site.github.project_tagline }}
 
-- [FAQs](FAQs.md)
-- [Glossary](Glossary.md)
-- [Implementations](Implementations.md)
-- [Legacy Technical Overview](Legacy_Technical_Overview.md)
-- [NMOS Technical Overview](NMOS_Technical_Overview.md)
+  - [FAQs](FAQs.md)
+  - [Glossary](Glossary.md)
+  - [Implementations](Implementations.md)
+  - [Technical Overview](Legacy_Technical_Overview.md)
+  - [Technical Overview](NMOS_Technical_Overview.md)
+  - [README](README.md)
