@@ -2,7 +2,7 @@
 
 # {{ site.github.project_tagline }}
 
-[![Build Status](https://travis-ci.com/AMWA-TV/nmos.git.svg)](https://travis-ci.com/AMWA-TV/nmos.git)
+[![Build Status](https://travis-ci.com/amwa-tv/nmos.svg)](https://travis-ci.com/amwa-tv/nmos)
 
 
 
@@ -13,9 +13,10 @@
 
 NMOS is a family name for specifications produced by the [Advanced Media Workflow Association](https://www.amwa.tv) related to networked media for professional applications.
 
-Here you will find general information about these Specifications – start with the [Technical Overview](branches/master/NMOS_Technical_Overview.md).
+Here you will find general information about these Specifications – start with the [Technical Overview](branches/master/NMOS_Technical_Overview.md),
+and you will also find an [FAQ](branches/master/FAQ.md), [glossary](branches/master/Glossary.md) and [list of available implementations](branches/master/NMOS-Solutions.md). 
 
-Further information to help developers and users can be found at <https://amwa-tv.github.io/nmos/wiki>.
+Further information to help developers and users can be found at <https://amwa-tv.github.io/nmos/wiki>.  
 
 The table below lists the current specifications and provides links to their repositories on [github.com/AMWA-TV](https://amwa-tv.github.io/) and documentation on [amwa-tv.github.io](https://amwa-tv.github.io). The "Version" links will take you to the documentation and download page (↓) for the latest release of recent versions of the specification.
 
@@ -42,9 +43,8 @@ n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/)
 
 
 ## Documentation
-  - [FAQs](branches/master/FAQs.md)
-  - [Glossary](branches/master/Glossary.md)
-  - [Implementations](branches/master/Implementations.md)
-  - [Technical Overview](branches/master/Legacy_Technical_Overview.md)
-  - [Technical Overview](branches/master/NMOS_Technical_Overview.md)
-  - [README](branches/master/README.md)
+- [FAQ](branches/master/FAQ.md)
+- [Glossary](branches/master/Glossary.md)
+- [Legacy Technical Overview](branches/master/Legacy_Technical_Overview.md)
+- [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
+- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
