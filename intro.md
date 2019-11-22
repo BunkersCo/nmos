@@ -6,6 +6,8 @@ Further information to help developers and users can be found at <https://github
 
 The table below lists the current specifications and provides links to their repositories on [github.com/AMWA-TV](https://github.com/AMWA-TV/) and documentation on [amwa-tv.github.io](https://amwa-tv.github.io). The "Version" links will take you to the documentation and download page (↓) for the latest release of recent versions of the specification.
 
+The [NMOS API Testing Tool](https://amwa-tv.github.io/nmos-testing) supports the majority of these specifications.
+
 Id | Name  | Spec Status | Version(s) | Repository
 --|---|---|---|--
 IS-04 | [Discovery & Registration](https://amwa-tv.github.io/nmos-discovery-registration) | AMWA Specification (Stable) | [v1.3](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.3/) [↓](https://github.com/AMWA-TV/nmos-discovery-registration/releases/tag/v1.3)<br/>[v1.2.2](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.2.2/) [↓](https://github.com/AMWA-TV/nmos-discovery-registration/releases/tag/v1.2.2)<br/>[v1.1.3](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.1.3/) [↓](https://github.com/AMWA-TV/nmos-discovery-registration/releases/tag/v1.1.3) |[nmos-discovery-registration](https://github.com/AMWA-TV/nmos-discovery-registration)

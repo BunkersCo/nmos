@@ -19,6 +19,8 @@ Further information to help developers and users can be found at <https://amwa-t
 
 The table below lists the current specifications and provides links to their repositories on [github.com/AMWA-TV](https://amwa-tv.github.io/) and documentation on [amwa-tv.github.io](https://amwa-tv.github.io). The "Version" links will take you to the documentation and download page (↓) for the latest release of recent versions of the specification.
 
+The [NMOS API Testing Tool](https://amwa-tv.github.io/nmos-testing) supports the majority of these specifications.
+
 Id | Name  | Spec Status | Version(s) | Repository
 --|---|---|---|--
 IS-04 | [Discovery & Registration](https://amwa-tv.github.io/nmos-discovery-registration) | AMWA Specification (Stable) | [v1.3](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.3/) [↓](https://amwa-tv.github.io/nmos-discovery-registration/releases/tag/v1.3)<br/>[v1.2.2](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.2.2/) [↓](https://amwa-tv.github.io/nmos-discovery-registration/releases/tag/v1.2.2)<br/>[v1.1.3](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.1.3/) [↓](https://amwa-tv.github.io/nmos-discovery-registration/releases/tag/v1.1.3) |[nmos-discovery-registration](https://amwa-tv.github.io/nmos-discovery-registration)
@@ -39,9 +41,11 @@ n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/)
 ---
 
 
-## General NMOS Documentation
+## Documentation
+- [FAQ](branches/master/FAQ.md)
 - [FAQs](branches/master/FAQs.md)
 - [Glossary](branches/master/Glossary.md)
 - [Implementations](branches/master/Implementations.md)
 - [Legacy Technical Overview](branches/master/Legacy_Technical_Overview.md)
 - [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
+- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
