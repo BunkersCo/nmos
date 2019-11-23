@@ -1,5 +1,5 @@
 # NMOS Glossary
-[//]: # (ToC goes after this comment. Create it with "gh-md-toc")
+
 
 * [Device](#device)
 * [Flow](#flow)
@@ -9,7 +9,7 @@
 * [Sender](#sender)
 * [Source](#source)
 
-[//]: # (ToC goes before this comment)
+
 
 _Warning: this is far complete, and currently some of this text is just copied from the JT-NM RA Glossary, and would benefit from improvement._
 
@@ -58,7 +58,7 @@ Note that (despite its name) a Source is:
 - NOT a Device from which the content originates (for example there might be video, audio and perhaps data Sources _associated with_ a camera, the camera itself is NOT a Source).
 - NOT about the physical origin of the Flows (for example: two Flows associated with the same Source might physically originate from different hardware in distinct geographical locations)
 
-[//]: # (References/Links)
+
 
 [JT-NM RA]: http://jt-nm.org/RA-1.0/ "Joint Task Force on Networked Media (JT-NM): Reference Architecture V1.0"
 

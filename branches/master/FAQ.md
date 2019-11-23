@@ -1,5 +1,5 @@
 # NMOS FAQ
-[//]: # (ToC goes after this comment. Create it with "gh-md-toc")
+
 
 * [Who is AMWA?](#who-is-amwa)
 * [What is the Networked Media Incubator?](#what-is-the-networked-media-incubator)
@@ -27,7 +27,7 @@
 * [Can I use IS\-xx without having to use IS\-yy?](#can-i-use-is-xx-without-having-to-use-is-yy)
 * [How do NMOS specifications fit into the wider community activity on interoperability?](#how-do-nmos-specifications-fit-into-the-wider-community-activity-on-interoperability)
 
-[//]: # (ToC goes before this comment)
+
 
 ## Who is AMWA?
 
@@ -190,7 +190,7 @@ The **Joint Task Force on Networked Media** is a an industry group that was set 
 
 This is discussed further in the [Technical Overview].
 
-[//]: # (References/Links)
+
 
 [AMWA]: http://amwa.tv "Advanced Media Workflow Association"
 
