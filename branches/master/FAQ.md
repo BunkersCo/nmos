@@ -14,7 +14,7 @@
 * [Does NMOS only support ST 2110?](#down-nmos-only-support-st-2110)
 * [Does NMOS work in the cloud?](#does-nmos-work-in-the-cloud)
 * [Does NMOS only deal with only individual elemental Flows?](#does-nmos-only-deal-with-individual-elemental-flows)
-* [Does NMOS only deal with uncompressed Flows?](#does-nmos-only-deal-with-only-uncompressed-flows)
+* [Does NMOS only deal with uncompressed Flows?](#does-nmos-only-deal-with-uncompressed-flows)
 * [How does my company / project show its Unique Selling Points?](#how-does-my-company--project-show-its-unique-selling-points)
 * [If the “O” in NMOS means “open”, why are Incubator workshops closed?](#if-the-o-in-nmos-means-open-why-are-incubator-workshops-closed)
 * [What is "NMOS compliant/certified"?](#what-is-nmos-compliantcertified)
@@ -210,8 +210,6 @@ The [EBU][EBU-R-152] and [WBU][WBU-Pyramid] support the adoption of IS-04 and IS
 
 [EBU-R-152]: https://tech.ebu.ch/publications/r152 "EBU R 152: Strategy for the Adoption of an NMOS Open Discovery & Connection Protocol"
 
-[End User Guides]: https://github.com/AMWA-TV/nmos/wiki/End-Users "End User Guides"
-
 [Glossary]: https://amwa-tv.github.io/nmos/branches/master/Glossary.html "Glossary"
 
 [NMOS-Solutions]: https://amwa-tv.github.io/nmos/branches/master/NMOS-Solutions.html "NMOS Solutions"
@@ -231,6 +229,8 @@ The [EBU][EBU-R-152] and [WBU][WBU-Pyramid] support the adoption of IS-04 and IS
 [NMOS Documentation]: https://amwa-tv.github.io/nmos "NMOS Documentation"
 
 [In-stream Signalling Specification]: https://github.com/AMWA-TV/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
+
+[Scalability]: http://www.ipshowcase.org/wp-content/uploads/2019/05/1030-Robert-Porter-Scalability-and-Performance-of-IS-04-and-IS-05-and-How-TR-1001-1-Helps.pdf "Scalability"
 
 [Scalability]: http://www.ipshowcase.org/wp-content/uploads/2019/05/1030-Robert-Porter-Scalability-and-Performance-of-IS-04-and-IS-05-and-How-TR-1001-1-Helps.pdf "Scalability"
 

@@ -2,7 +2,7 @@
 
 # {{ site.github.project_tagline }}
 
-[![Build Status](https://travis-ci.com/amwa-tv/nmos.svg)](https://travis-ci.com/amwa-tv/nmos)
+[![Build Status](https://travis-ci.com/AMWA-TV/nmos.svg)](https://travis-ci.com/AMWA-TV/nmos)
 
 
 
@@ -46,5 +46,5 @@ n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/)
 - [FAQ](branches/master/FAQ.md)
 - [Glossary](branches/master/Glossary.md)
 - [Legacy Technical Overview](branches/master/Legacy_Technical_Overview.md)
-- [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
 - [NMOS-Solutions](branches/master/NMOS-Solutions.md)
+- [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
