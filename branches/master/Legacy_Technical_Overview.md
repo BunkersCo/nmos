@@ -61,7 +61,7 @@ As an example, consider the above concepts in the context of a video camera with
 
 -   The video Source provides (for the purposes of this example) two video Flows, one uncompressed, the other mezzanine encoded.
 
-Sources, Flows and Grains are formalized in the [NMOS Content Model](https://github.com/AMWA-TV/nmos-content-model).
+Sources, Flows and Grains are formalized in the [NMOS Content Model](https://amwa-tv.github.io/nmos-content-model).
 
 ### Senders and Receivers
 
@@ -74,7 +74,7 @@ Each Node represents the resources in its data model using a RESTful HTTP/JSON A
 
 ## Timing
 
-The [NMOS Content Model](https://github.com/AMWA-TV/nmos-content-model) has been designed around the assumption that Nodes have access to a globally synchronized Clock to synchronize their Devices.
+The [NMOS Content Model](https://amwa-tv.github.io/nmos-content-model) has been designed around the assumption that Nodes have access to a globally synchronized Clock to synchronize their Devices.
 
 In typical usage (including the workshops of the AMWA Networked Media Incubator) the Clock is derived from GPS-locked PTP (using an epoch of 1970-01-01T00:00:00TAI) and is used to govern the capture of essence such as video frames, providing frame synchronization between discrete Devices.
 
@@ -101,7 +101,7 @@ Regardless of their implementation, viewed logically, Nodes provide:
 
 -   A PTP slave for timing and synchronization.
 
-The Node HTTP API is specified within the [discovery and registration specification](https://github.com/AMWA-TV/nmos-discovery-registration).
+The Node HTTP API is specified within the [discovery and registration specification](https://amwa-tv.github.io/nmos-discovery-registration).
 
 NMOS does not specify the internal interfaces within a Node, although the following diagram may be helpful:
 
@@ -134,7 +134,7 @@ The Query Service implements the **Query API** (RESTful HTTP/JSON) of the NMOS D
 
 The Query API also provides the ability to generate ‘long lived’ queries using its Subscription mechanism and WebSockets.
 
-The Registration and Query APIs are specified within the [discovery and registration specification](https://github.com/AMWA-TV/nmos-discovery-registration).
+The Registration and Query APIs are specified within the [discovery and registration specification](https://amwa-tv.github.io/nmos-discovery-registration).
 
 ### Examples
 
@@ -173,6 +173,6 @@ In addition **multiplexed** streams are supported, in particular:
 
 NMOS APIs include a "format" attribute to describe they type of Sources and Flows. _Note: for successful operation with multiplexed streams, v1.1 or later of IS-04 is required._
 
-[NMOS In-stream Signaling of Identity and Timing information for RTP streams](https://github.com/AMWA-TV/nmos-in-stream-id-timing) specifies how to apply the content model using **RTP header extensions** to carry identity and timing information and signal Grain boundaries. These can be extended to support e.g. mezzanine compression formats such as VC-2.
+[NMOS In-stream Signaling of Identity and Timing information for RTP streams](https://amwa-tv.github.io/nmos-in-stream-id-timing) specifies how to apply the content model using **RTP header extensions** to carry identity and timing information and signal Grain boundaries. These can be extended to support e.g. mezzanine compression formats such as VC-2.
 
 Future NMOS specifications may be produced to specify how to apply the content model to other types of content transport (e.g. HTTP-based).

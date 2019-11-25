@@ -210,8 +210,6 @@ The [EBU][EBU-R-152] and [WBU][WBU-Pyramid] support the adoption of IS-04 and IS
 
 [EBU-R-152]: https://tech.ebu.ch/publications/r152 "EBU R 152: Strategy for the Adoption of an NMOS Open Discovery & Connection Protocol"
 
-[End User Guides]: https://github.com/AMWA-TV/nmos/wiki/End-Users "End User Guides"
-
 [Glossary]: https://amwa-tv.github.io/nmos/branches/master/Glossary.html "Glossary"
 
 [NMOS-Solutions]: https://amwa-tv.github.io/nmos/branches/master/NMOS-Solutions.html "NMOS Solutions"
@@ -230,9 +228,7 @@ The [EBU][EBU-R-152] and [WBU][WBU-Pyramid] support the adoption of IS-04 and IS
 
 [NMOS Documentation]: https://amwa-tv.github.io/nmos "NMOS Documentation"
 
-[In-stream Signalling Specification]: https://github.com/AMWA-TV/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
-
-[Scalability]: http://www.ipshowcase.org/wp-content/uploads/2019/05/1030-Robert-Porter-Scalability-and-Performance-of-IS-04-and-IS-05-and-How-TR-1001-1-Helps.pdf "Scalability"
+[In-stream Signalling Specification]: https://amwa-tv.github.io/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
 
 [SDP]: https://tools.ietf.org/html/rfc4566 "SDP: Session Description Protocol"
 
@@ -244,4 +240,4 @@ The [EBU][EBU-R-152] and [WBU][WBU-Pyramid] support the adoption of IS-04 and IS
 
 [WBU-Pyramid]: https://worldbroadcastingunions.org/wbu-supports-ebus-technology-pyramid-for-media-nodes/ "WBU Endorses EBU Pyramid"
 
-[NMOS Wiki]: https://github.com/AMWA-TV/nmos/wiki "NMOS Wiki"
+[NMOS Wiki]: https://amwa-tv.github.io/nmos/wiki "NMOS Wiki"
