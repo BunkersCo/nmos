@@ -3,11 +3,7 @@ This page lists open source, free and commercial implementations of NMOS specifi
 
 This list is unlikely to be complete, and AMWA does not make any guarantees of conformance.
 
-<<<<<<< HEAD
 To have an implementation added, please submit a GitHub issue to the [NMOS repo](https://github.com/AMWA-TV/nmos), including the information required in the table. The implementation must be available, and a link to a repo, download page or product page must be provided.
-=======
-To have an implementation added, please submit a GitHub issue to the [NMOS repo](https://amwa-tv.github.io/nmos), including the information required in the table. The implementation must be available, and a link to a repo, download page or product page must be provided.
->>>>>>> 9f53379463745ed5f8177a41d7b72b93b23b21d1
 
 # Open Source & Freeware
 
