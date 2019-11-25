@@ -10,10 +10,11 @@
 * [How does IS\-04 scale?](#how-does-is-04-scale)
 * [How can NMOS be used securely?](#how-can-nmos-be-used-securely)
 * [Does NMOS require multicast?](#does-nmos-require-multicast)
-* [Does NMOS require RTP?](#does-nmos-require-rtp)
+* [Does NMOS only support RTP?](#does-nmos-only-support-rtp)
+* [Does NMOS only support ST 2110?](#down-nmos-only-support-st-2110)
 * [Does NMOS work in the cloud?](#does-nmos-work-in-the-cloud)
-* [Why does NMOS deal with only individual elemental Flows?](#why-does-nmos-deal-with-only-individual-elemental-flows)
-* [Why does NMOS deal with only uncompressed Flows?](#why-does-nmos-deal-with-only-uncompressed-flows)
+* [Does NMOS only deal with only individual elemental Flows?](#does-nmos-only-deal-with-individual-elemental-flows)
+* [Does NMOS only deal with uncompressed Flows?](#does-nmos-only-deal-with-only-uncompressed-flows)
 * [How does my company / project show its Unique Selling Points?](#how-does-my-company--project-show-its-unique-selling-points)
 * [If the “O” in NMOS means “open”, why are Incubator workshops closed?](#if-the-o-in-nmos-means-open-why-are-incubator-workshops-closed)
 * [What is "NMOS compliant/certified"?](#what-is-nmos-compliantcertified)
@@ -23,7 +24,6 @@
 * [Why does IS\-05 use SDP? And why not <em>just</em> use SDP?](#why-does-is-05-use-sdp-and-why-not-just-use-sdp)
 * [Why doesn't IS\-xx do yyy?](#why-doesnt-is-xx-do-yyy)
 * [What is the relationship between connection management and network control?](#what-is-the-relationship-between-connection-management-and-network-control)
-* [What is the relationship between NMOS and AMWA Labs?](#what-is-the-relationship-between-nmos-and-amwa-labs)
 * [Can I use IS\-xx without having to use IS\-yy?](#can-i-use-is-xx-without-having-to-use-is-yy)
 * [How do NMOS specifications fit into the wider community activity on interoperability?](#how-do-nmos-specifications-fit-into-the-wider-community-activity-on-interoperability)
 
@@ -51,15 +51,11 @@ For more detail on AMWA's specification process see [BCP-001].
 
 ## Where can I find the NMOS specifications?
 
-If you are viewing this FAQ on GitHub you already know the answer, but in case you are reading a copy, then you will find them at https://amwa-tv.github.io/ and their corresponding documentation at https://amwa-tv.github.io/.  The NMOS specifications are in repositories / folders starting "nmos", for example https://amwa-tv.github.io/nmos-discovery-registration is the IS-04 repo and https://amwa-tv.github.io/nmos-discovery-registration its documentation.
-
-Note that some specifications are in private repos in their early stages.  These are accessible to Incubator members (if you are a member who needs access, please contact the Incubator or activity lead).
+Go to the main [NMOS Documentation] page and follow the links to the required specifications.
 
 ## Where can I find an implementation?
 
-As well as proprietary implementations, several open-source implementations of IS-04 and IS-05 are available.  See the page on [NMOS Solutions](NMOS-solutions) for up-to-date information. At the time of writing this, they all use the Apache 2.0 license, which matches the NMOS specifications themselves.
-
-If you have an implementation you would like added, please create an issue against this repository indicating where it is available from.
+[This page][NMOS-Solutions] lists many products supporting IS-04 and IS-05 and several open source software implementations. See also the [JT-NM Tested] TR-1001 Catalogue.
 
 ## What is a Source, Flow, Grain, Node, Device, Sender, Receiver...?
 
@@ -67,15 +63,13 @@ NMOS uses these common terms (capitalised) in specific ways that may not always 
 
 ## How does IS-04 scale?
 
-IS-04 covers the APIs used for discovery and registration, and how to find the API Endpoints, but does not define an implementation of a registry. This allows implementers and integrators to choose an approach to scalability that is appropriate to topology of the infrastructure and how it is used. Some details on the sorts of considerations which should go into scaling to very large systems is included in the [End User Guides] on this wiki.
-
-An activity is underway in the Networked Media Incubator to test the performance of IS-04 and IS-05 at scale.
+IS-04 covers the APIs used for discovery and registration, and how to find the API Endpoints, but does not define an implementation of a registry. This allows implementers and integrators to choose an approach to scalability that is appropriate to topology of the infrastructure and how it is used. Some details on the sorts of considerations which should go into scaling to very large systems is included in the End User Guides on the [wiki][NMOS Wiki], and [this presentation][Scalability] outlines results from a Networked Media Incubator study testing the performance of IS-04 and IS-05 at scale.
 
 ## How can NMOS be used securely?
 
 NMOS APIs have supported use of HTTPS and WSS (secure WebSockets) since IS-04 v1.1. So far these haven't been used at Incubator workshops, but this is something we expect to happen in the reasonably near future.
 
-An project of the Networked Media Incubator is currently developing a proposals for API Security, including Confidentiality, Identification, Integrity, Authentication and Authorisation.  These are in the AMWA BCP-003 family of documents.
+AMWA is developing the [BCP-003] set of Best Common Practices for API Security, including encryption and authorization recommendations.
 
 ## Does NMOS require multicast?
 
@@ -92,27 +86,31 @@ The Flows that are discovered and connected through NMOS can be multicast (this 
 
 Generally we have been using multicast and IGMP at the Incubator workshops to date, both for DNS-SD and for media streams. That reflects the focus on 2110-type use cases. Where we need to address different cases, future workshops could take a different approach. See also the question about "the cloud" below.
 
-## Does NMOS require RTP?
+## Does NMOS only support RTP?
 
-**No.** The transport used for Flows is independent of how the Flows are discovered and how connections are made. Incubator workshops have mostly used RTP (see also the [In-stream Signalling Specification]), which corresponds to the industry's current attention on ST 2022-6 and ST 2110, but NMOS can be used with HTTP and other transport protocols. 
+**No.** The transport used for Flows is independent of how the Flows are discovered and how connections are made. Incubator workshops have mostly used RTP, which corresponds to the industry's current attention on ST 2022-6 and ST 2110, but NMOS can be used with HTTP and other transport protocols. 
 
 IS-07 uses WebSockets or MQTT to transport its Flows of events.  
 
- Streampunk's [Arachnid] is an example of how Grains may be transported over HTTP(S), using HTTP headers to carry identity, timestamp and other Grain attributes.
+Streampunk's [Arachnid] is an example of how Grains may be transported over HTTP(S), using HTTP headers to carry identity, timestamp and other Grain attributes.
+
+## Does NMOS only support ST 2110?
+
+**No.** See above
 
 ## Does NMOS work in the cloud?
 
 **Yes.** The [BBC IP Studio] team has been addressing how its live IP technology – which uses NMOS – can be deployed on a range of platforms, including in-house and public cloud.
 
-## Why does NMOS deal with only individual elemental Flows?
+## Does NMOS only deal with individual elemental Flows?
 
-**It doesn't have to.** Since v1.1, IS-04 has supported multiplexed Flows. In particular, it has been used with ST 2022-6 (SDI over RTP).
+**No.** Since v1.1, IS-04 has supported multiplexed Flows. In particular, it has been used with ST 2022-6 (SDI over RTP).
 
-Also BCP-002-01 specifies how to group together "natural" groups, such as video, audio and data coming from a camera, or multiple video Receivers on a multiviewer.
+Also [BCP-002-01][BCP-002] specifies how to group together "natural" groups, such as video, audio and data coming from a camera, or multiple video Receivers on a multiviewer.
 
-## Why does NMOS deal with only uncompressed Flows?
+## Does NMOS deal only with uncompressed Flows?
 
-Again, **it doesn't have to.** See the question about RTP above.
+**No.** See the question about RTP above.
 
 ## How does my company / project show its Unique Selling Points?
 
@@ -148,11 +146,15 @@ And the NMOS APIs are built on widely adopted patterns used on the Internet/Web,
 
 ## When will IS-04 / NMOS be standardised? When is it “done”?
 
-IS-04 v1.0, v1.1, v1.2 and v1.3 have been elevated to AMWA Specifications.
+The [NMOS Documentation] page gives the current status of the Specifications. 
+You will see that many are already published. You will also see that some have multiple versions. 
+As the professional networked media industry matures we can expect requirements to keep changing, so although individual versions will be "done", NMOS will not -- and cannot -- stand still. 
 
-However, there will be further versions of IS-04 and other NMOS specs. Later versions may support further functionality and refactoring of NMOS – as the professional networked media industry matures we can expect requirements to keep changing, so although individual versions will be "done", NMOS will not stand still.
+This is commonplace with software products, and reflects the changing nature of the industry. 
+However maintaining compatibility is important, and to date all changes introduced have been non-breaking.  
+We are also careful to ensure that [different versions of IS-04 implementations can work together][Upgrade Path].
 
-As for formal due-process standardisation of particular versions of NMOS specifications, this is a question for SMPTE and the desire or otherwise of the industry to see this happen.
+The JT-NM's [TR-1001-1] recommendations for using SMPTE ST 2110 in engineered networks specify use of IS-04 version 1.2 _or higher_ and IS-05 version 1.0 _or higher_.
 
 ## Why does IS-04 have connection management if there is IS-05?
 
@@ -176,19 +178,17 @@ The NMOS Network Control API (IS-06) is concerned with what happens within the n
 
 The NMOS Connection Management API (IS-05) is concerned with creation of higher-level _logical_ connections between the Senders and Receivers of Devices. Although it's quite possible that an IS-05 connection/disconnection request may cause a controller to invoke IS-06 to "make it happen", this doesn't have to be the case.  
 
-## What is the relationship between NMOS and AMWA Labs?
-
-[AMWA Labs] is about learning how a "cloud-first" approach to networked media might work – the group so far has looked at performance using HTTP-based transport, compression and encryption. The Labs group doesn't create specifications, but its output in part shows what can be possible, and in part informs what will be needed for a future "NMOS toolbox", which  will help in determining next work in the Incubator.
-
 ## Can I use IS-xx without having to use IS-yy?
 
 **Yes, but...** It's possible to use the NMOS specifications independently, but they benefit from being used in combination. For example, the Connection Management API (IS-05) allows connections between manually configured IP addresses (perhaps entered into a spreadsheet?), but this becomes unmanageable in large and changing environments, where the benefits of automated discovery using IS-04 become overwhelming.
 
+And [TR-1001-1] requires use of IS-05.
+
 ## How do NMOS specifications fit into the wider community activity on interoperability?
 
-The **Joint Task Force on Networked Media** is a an industry group that was set up a few years ago to coordinate work on interoperability.  AMWA and NMOS are an important part of how this is developing in practice. The IS-xx specifications appear on the JT-NM industry roadmap and have featured at demonstrations at IBC and NAB.
+The **Joint Task Force on Networked Media** is a an industry group that was set up a few years ago to coordinate work on interoperability.  The NMOS specifications are part of the JT-NM industry roadmap and IS-04 and IS-05 are mandated in the [TR-1001-1] recommendations. 
 
-This is discussed further in the [Technical Overview].
+The [EBU][EBU-R-152] and [WBU][WBU-Pyramid] support the adoption of IS-04 and IS-05. 
 
 
 
@@ -202,32 +202,46 @@ This is discussed further in the [Technical Overview].
 
 [BBC IP Studio]: http://www.bbc.co.uk/rd/projects/ip-studio "BBC R&D IP Studio"
 
-[BBC's IS-04 implementation]: https://github.com/bbc/nmos-discovery-registration-ri "IS-04 reference implementation"
+[BCP-001]: https://www.amwa.tv/specifications "AMWA BCP-001 AMWA Specification Process"
 
-[BCP-001]: http://amwa.tv/projects/BCP-001.shtml "BCP-001: AMWA Specification Process"
+[BCP-002]: https://amwa-tv.github.io/nmos-grouping "AMWA BCP-002 Recommendations for Grouping NMOS Resources"
 
-[End User Guides]: End-Users "End User Guides"
+[BCP-003]: https://amwa-tv.github.io/nmos-api-security "AMWA BCP-003 Security recommendations for NMOS APIs"
 
-[Glossary]: Glossary "Glossary"
+[EBU-R-152]: https://tech.ebu.ch/publications/r152 "EBU R 152: Strategy for the Adoption of an NMOS Open Discovery & Connection Protocol"
 
-[NMOS Solutions]: NMOS-Solutions "NMOS Solutions"
+[End User Guides]: https://github.com/AMWA-TV/nmos/wiki/End-Users "End User Guides"
 
-[Incubator rules]: http://www.amwa.tv/projects/nmi/AMWA_NMOS_Rules_v2.11.pdf "AMWA Networked Media Incubator rules"
+[Glossary]: https://amwa-tv.github.io/nmos/branches/master/Glossary.html "Glossary"
 
-[IPR Policy]: http://www.amwa.tv/about/policies/AMWA_IPR_Policy_V3.0.pdf "AMWA IPR Policy"
+[NMOS-Solutions]: https://amwa-tv.github.io/nmos/branches/master/NMOS-Solutions.html "NMOS Solutions"
+
+[Incubator rules]: https://www.amwa.tv/bylaws-policy-documents-and-license "AMWA Networked Media Incubator rules"
+
+[IPR Policy]: https://www.amwa.tv/bylaws-policy-documents-and-license "AMWA IPR Policy"
 
 [JT-NM]: http://jt-nm.org "Joint Task Force on Networked Media (JT-NM)"
 
-[Ledger]: https://github.com/Streampunk/ledger "Streampunk Ledger"
+[JT-NM Tested]: http://jt-nm.org/jt-nm_tested/ "JT-NM Tested"
 
 [MXF]: http://tech.ebu.ch/docs/techreview/trev_2010-Q3_MXF-2.pdf "MXF - a technical review"
 
 [Networked Media Incubator]: http://nmos.tv/about_NMI.html "Networked Media Incubator"
 
-[In-stream Signalling Specification]: https://amwa-tv.github.io/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
+[NMOS Documentation]: https://amwa-tv.github.io/nmos "NMOS Documentation"
+
+[In-stream Signalling Specification]: https://github.com/AMWA-TV/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
+
+[Scalability]: http://www.ipshowcase.org/wp-content/uploads/2019/05/1030-Robert-Porter-Scalability-and-Performance-of-IS-04-and-IS-05-and-How-TR-1001-1-Helps.pdf "Scalability"
 
 [SDP]: https://tools.ietf.org/html/rfc4566 "SDP: Session Description Protocol"
 
-[Technical Overview]: https://amwa-tv.github.io/nmos/blob/master/NMOS_Technical_Overview.md "NMOS Technical Overview"
+[Technical Overview]: https://amwa-tv.github.io/nmos/branches/master/NMOS_Technical_Overview.html "NMOS Technical Overview"
 
 [TR-1001-1]: http://www.jt-nm.org/documents/JT-NM_TR-1001-1:2018_v1.0.pdf "JT-NM TR-1001: System Environment and Device Behaviors For SMPTE ST 2110 Media Nodes in Engineered Networks"
+
+[Upgrade Path]: https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.3/docs/6.0._Upgrade_Path.html "Upgrade Path"
+
+[WBU-Pyramid]: https://worldbroadcastingunions.org/wbu-supports-ebus-technology-pyramid-for-media-nodes/ "WBU Endorses EBU Pyramid"
+
+[NMOS Wiki]: https://github.com/AMWA-TV/nmos/wiki "NMOS Wiki"

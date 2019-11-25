@@ -35,8 +35,7 @@ In the IS-04 and IS-05 specifications a Flow refers to a sequence of video, audi
 
 #### Grain
 
-NMOS specifications use Grain as a convenient way of identifying a unit of video, audio or time-related data. This helps with mapping NMOS's logical data model onto physical Specifications. For example a frame of video may correspond to a VideoGrain.  This is in effect what SMPTE ST 2110-20 does, although that specification does not mention "grains".  The work in progress [RTP In-stream Signalling Specification] builds upon this by describing a mechanism to identify the Grain (and its timing) using RTP header extensions.
-
+NMOS specifications use Grain as a convenient way of identifying a unit of video, audio or time-related data. This helps with mapping NMOS's logical data model onto physical Specifications. For example a frame of video may correspond to a VideoGrain.  
 
 #### Node
 
@@ -62,4 +61,4 @@ Note that (despite its name) a Source is:
 
 [JT-NM RA]: http://jt-nm.org/RA-1.0/ "Joint Task Force on Networked Media (JT-NM): Reference Architecture V1.0"
 
-[RTP In-stream Signalling Specification]: https://amwa-tv.github.io/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
+[RTP In-stream Signalling Specification]: https://github.com/AMWA-TV/nmos-in-stream-id-timing "AMWA WIP Specification: In-stream Signalling of Identity and Timing information for RTP streams"
