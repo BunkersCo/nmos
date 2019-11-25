@@ -3,13 +3,13 @@ This page lists open source, free and commercial implementations of NMOS specifi
 
 This list is unlikely to be complete, and AMWA does not make any guarantees of conformance.
 
-To have an implementation added, please submit a GitHub issue to the [NMOS repo](https://github.com/AMWA-TV/nmos), including the information required in the table. The implementation must be available, and a link to a repo, download page or product page must be provided.
+To have an implementation added, please submit a GitHub issue to the [NMOS repo](https://amwa-tv.github.io/nmos), including the information required in the table. The implementation must be available, and a link to a repo, download page or product page must be provided.
 
 # Open Source & Freeware
 
 | Name | Language | License | Description |
 | ---- | -------- | ------- | ----------- |
-| [AMWA NMOS Testing Tool](https://github.com/AMWA-TV/nmos-testing/) | Python | Apache 2.0 | Testing of all current NMOS specifications |
+| [AMWA NMOS Testing Tool](https://amwa-tv.github.io/nmos-testing/) | Python | Apache 2.0 | Testing of all current NMOS specifications |
 | [BBC R&D NMOS Joint RI](https://github.com/bbc/nmos-joint-ri) |  Python | Apache 2.0  | IS-04 and IS-05 registry and APIs (used as reference in AMWA workshops). |
 | [BBC R&D NMOS Web Router](https://github.com/bbc/nmos-web-router) | Javascript | Apache 2.0 | IS-04 and IS-05 web-based client application |
 | [BBC R&D Authorisation Server](https://github.com/bbc/nmos-auth-server) | Python | Apache 2.0 | OAuth2 Authorisation Server based on AMWA NMOS BCP-003-02 / IS-10 |
