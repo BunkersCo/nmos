@@ -173,8 +173,8 @@ To see the GitHub _repository_ that contains the source for the specification, c
 
 The NMOS Interface Specications (IS-04 etc.) are layed out as below, where the directory names refer to what is in the repo:
 
-* `/html-APIs/`: RAML API definitions
-  * `/html-APIs/schemas/with-refs/`: JSON Schemas referenced from the RAML
+* `/APIs/`: RAML API definitions
+  * `/APIs/schemas/with-refs/`: JSON Schemas referenced from the RAML
 * `/examples/`: Example API messages
 * `/docs/`: Normative and supporting documents, starting with an Overview.
 
