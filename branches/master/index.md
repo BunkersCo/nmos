@@ -5,5 +5,5 @@
 - [FAQ](FAQ.md)
 - [Glossary](Glossary.md)
 - [Legacy Technical Overview](Legacy_Technical_Overview.md)
-- [NMOS-Solutions](NMOS-Solutions.md)
 - [NMOS Technical Overview](NMOS_Technical_Overview.md)
+- [NMOS-Solutions](NMOS-Solutions.md)

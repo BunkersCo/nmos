@@ -7,3 +7,6 @@ build-tools:
 
 distclean:
 	./make-distclean.sh
+
+dashboard:
+	./make-dashboard.sh
