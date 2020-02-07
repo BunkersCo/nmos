@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DASHBOARD=Dashboard.md
-cat  << EOF > $DASHBOARD 
+cat  << EOF > "$DASHBOARD" 
 ## Dashboard
 
 | AMWA ID and docs | Repository | Default Branch | Lint | Render |
@@ -22,15 +22,22 @@ for repo in \
     nmos-id-timing-model \
     nmos-parameter-registers \
     ; do
-    REPO_ADDRESS="https://github.com/AMWA-TV/$repo"
+    repo_address="https://github.com/AMWA-TV/$repo"
 
-    git clone "$REPO_ADDRESS" "$repo"
+    git clone "$repo_address" "$repo"
     cd "$repo"
-    CI_URL="${REPO_ADDRESS/github.com/travis-ci.com}"
-        DEFAULT_BRANCH="$(git remote show origin | awk '/HEAD branch/ { print $3 }')"
+    ci_url="${repo_address/github.com/travis-ci.com}"
+        default_branch="$(git remote show origin | awk '/HEAD branch/ { print $3 }')"
         git checkout gh-pages
         ID=$(awk '/amwa_id:/ { print $2; }' _config.yml)
-        echo "| [$ID](https://amwa-tv.github.io/$repo) | [$repo]($REPO_ADDRESS) | $DEFAULT_BRANCH | [![Build Status](${CI_URL}.svg?branch=${DEFAULT_BRANCH})](${CI_URL}) | [![Build Status](${CI_URL}.svg?branch=gh-pages)](${CI_URL}) |" >> ../$DASHBOARD
+        cat << EOF >> "../$DASHBOARD"
+| [$ID](https://amwa-tv.github.io/$repo) \
+| [$repo]($repo_address) \
+| $default_branch \
+| <a href="${ci_url}?branch=${default_branch}"><img src="${ci_url}.svg?branch=${default_branch}" width="100"/></a> \
+| <a href="${ci_url}?branch=gh-pages"><img src="${ci_url}.svg?branch=gh-pages" width="100"/></a> \
+|
+EOF
     cd ..
     rm -rf "$repo"
 done
