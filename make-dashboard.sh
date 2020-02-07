@@ -21,6 +21,7 @@ for repo in \
     nmos-api-security \
     nmos-id-timing-model \
     nmos-parameter-registers \
+    nmos-template \
     ; do
     repo_address="https://github.com/AMWA-TV/$repo"
 
