@@ -18,7 +18,7 @@ and you will also find an [FAQ](branches/master/FAQ.md), [glossary](branches/mas
 
 Further information to help developers and users can be found at <https://github.com/AMWA-TV/nmos/wiki>.  
 
-The table below lists the current specifications and provides links to their repositories on [github.com/AMWA-TV](https://github.com/AMWA-TV/) and documentation on [amwa-tv.github.io](https://amwa-tv.github.io). The "Version" links will take you to the documentation and download page (↓) for the latest release of recent versions of the specification.
+The table below lists the current specifications and provides links to their repositories on [github.com/AMWA-TV](https://github.com/AMWA-TV/) and documentation on [amwa-tv.github.io](https://amwa-tv.github.io). The "Version" links will take you to the documentation and download page (↓) for the latest release of recent versions of the specification. There is also a [CI dashboard](Dashboard.md) showing the state of spec linting and documentation renders.
 
 The [NMOS API Testing Tool](https://amwa-tv.github.io/nmos-testing) supports the majority of these specifications.
 
@@ -46,5 +46,5 @@ n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/)
 - [FAQ](branches/master/FAQ.md)
 - [Glossary](branches/master/Glossary.md)
 - [Legacy Technical Overview](branches/master/Legacy_Technical_Overview.md)
-- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
 - [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
+- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
