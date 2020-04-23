@@ -15,7 +15,7 @@ To have an implementation added, please submit a GitHub issue to the [NMOS repo]
 | [BBC R&D Authorisation Server](https://github.com/bbc/nmos-auth-server) | Python | Apache 2.0 | OAuth2 Authorisation Server based on AMWA NMOS BCP-003-02 / IS-10 |
 | [Mellanox NMOS Docker](https://dockr.ly/2K046pJ) | N/A | Apache 2.0 | Docker container IS-04/05/07/09, BCP-003-02 |
 | [Riedel NMOS Explorer](https://myriedel.riedel.net/en/downloads/) | N/A | Freeware | IS-04 and IS-05 client application for Windows and Linux |
-| [Sony nmos-cpp](https://github.com/sony/nmos-cpp) | C++  | Apache 2.0 | IS-04 and IS-05 API implementations, registry and node applications |
+| [Sony nmos-cpp](https://github.com/sony/nmos-cpp) | C++  | Apache 2.0 | IS-04, IS-05, IS-07, IS-09 API implementations, cross-platform registry and node applications |
 | [Sony nmos-js](https://github.com/sony/nmos-js) | Javascript | Apache 2.0 | IS-04 and IS-05 web-based client application |
 | [Streampunk Media Ledger](https://github.com/Streampunk/ledger) | Javascript (NodeJS)  | Apache 2.0 | IS-04 v1.0 APIs |
 
@@ -46,7 +46,7 @@ Many of these products have participated in the JT-NM Tested programme, with res
 | ------- | -------------- | ------------------------ | -------- |
 | AJA | [IPR-10G2-HDMI](https://www.aja.com/products/mini-converters/ipr-10g2-hdmi) <br/> [IPR-10G2-SDI](https://www.aja.com/products/mini-converters/ipr-10g2-sdi) <br/> [IPR-10G-HDMI](https://www.aja.com/products/mini-converters/ipr-10g-hdmi) <br/> [IPT-10G2-HDMI](https://www.aja.com/products/ipt-10g2-hdmi) <br/> [IPT-10G2-SDI](https://www.aja.com/products/ipt-10g2-sdi) <br/> [IoIP](https://www.aja.com/products/io-ip) <br/> [KONA-IP](https://www.aja.com/products/kona-ip) | IS-04 v1.2 <br/> IS-05 v1.0 | IP Converters and Interfaces |
 | Bridge Technologies | [VB440](https://bridgetech.tv/products/vb440/) | IS-04 v1.2 <br/> IS-05 v1.0 | High Performance IP Probe |
-| Dalet | [Brio]( https://www.dalet.com/fr/platforms/brio) | IS-04 v1.2 <br/> IS-05 v1.0 | Ingest and Playout Server |
+| Dalet | [Brio]( https://www.dalet.com/platforms/brio) | IS-04 v1.3 <br/> IS-05 v1.1 <br/> IS-08 v1.0 | Ingest and Playout Server |
 | EEG | [HD492 Alta](https://eegent.com/products/X6KO3ARIL9X1VEIU/altaTM-ip-video-captioning) | IS-04 v1.2 <br/> IS-05 v1.0 | Caption Encoder for Live Broadcasting |
 | Embrionix | [emFUSION](https://www.embrionix.com/product/emFUSION-6) <br/> [emVIEW](https://www.embrionix.com/product/emVIEW-7-DMI%20-%20Standalone%20IP%20Gateway%20(HDMI%20out)) <br/> [emSFP ST.2110 Encapsulator](https://www.embrionix.com/product/ST2110%20Dual%20Encapsulator%20(HD-SDI)) <br/> [emSFP ST.2110 Decapsulator](https://www.embrionix.com/product/ST2110%20Dual%20De-Encapsulator%20(HD-SDI)) | IS-04 v1.2 <br/> IS-05 v1.0 <br/> IS-08 v1.0 | IP Gateway converters |
 | EVS | [XT-VIA](https://evs.com/en/product/xt-via) <br/> [XS-VIA](https://evs.com/en/product/xs-via) <br/> [XT-4K](https://evs.com/en/product/xt4k) <br/> [XS-4K](https://evs.com/en/product/xs4k) <br/> [XS-NEO](https://evs.com/en/solutions/ingest2post) | IS-04 v1.2 <br/> IS-05 v1.0 | IP/SDI Production Servers |
