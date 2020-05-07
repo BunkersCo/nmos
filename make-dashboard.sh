@@ -4,7 +4,7 @@ DASHBOARD=Dashboard.md
 cat  << EOF > "$DASHBOARD" 
 ## Dashboard
 
-| AMWA ID and docs | Repository | Default Branch | Lint | Render |
+| ID + Docs | Repository | Default Branch | Lint (default) | Render (all) |
 | --- | --- | --- | --- | --- |
 EOF
 
