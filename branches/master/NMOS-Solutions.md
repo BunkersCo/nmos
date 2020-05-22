@@ -23,7 +23,7 @@ Note that inclusion in this list is not an endorsement by AMWA or a guarantee of
 
 # Commercial Hardware & Software
 
-This section lists commercial implementations of the NMOS specifications. It includes information about which NMOS specifications, versions and features are supported, and provide links to the manufacturers' product pages. (Note to manufacurers: the linked product page must include information about NMOS support!)
+This section lists commercial implementations of the NMOS specifications. It includes information about which NMOS specifications, versions and features are supported, and provide links to the manufacturers' product pages. (Note to manufacturers: the linked product page must include information about NMOS support!)
 
 Note that inclusion in this list is not an endorsement by AMWA or a guarantee of conformance to the specifications.
 
@@ -33,7 +33,7 @@ Many of these products have participated in the JT-NM Tested programme, with res
 ## Controllers & Registries
 
 | Company | Product | Supported Specifications | Comments |
-| ------- | -------------- | ------------------------ | -------- |
+| ------- | ------- | ------------------------ | -------- |
 | Axon | [Cerebrum](https://www.axon.tv/productgroup/cerebrum/ip-control-monitoring/) | IS-04 v1.2 <br/> IS-05 v1.0 | Broadcast Control and Monitoring Solution |
 | BFE | [SILKNET](https://bfe.tv/en/solutions-products/control-monitoring-systems/ksc-silknet/) | IS-04 v1.2 <br/> IS-05 v1.0 | Broadcast SDN Controller |
 | EVS | [SCORE MASTER](https://evs.com/en/product/score-master) | IS-04 v1.2 <br/> IS-05 v1.0 | SDN Controller for IP Routing |
