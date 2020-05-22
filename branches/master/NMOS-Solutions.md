@@ -21,7 +21,7 @@ To have an implementation added, please submit a GitHub issue to the [NMOS repo]
 
 Note that inclusion in this list is not an endorsement by AMWA or a guarantee of conformance to the specifications.
 
-# Commercial Hardware & Software ![buy NMOS here](images/buy_NMOS_here_100w.png)
+# Commercial Hardware & Software
 
 This section lists commercial implementations of the NMOS specifications. It includes information about which NMOS specifications, versions and features are supported, and provide links to the manufacturers' product pages. (Note to manufacurers: the linked product page must include information about NMOS support!)
 
