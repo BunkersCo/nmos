@@ -2,9 +2,8 @@
 
 # {{ site.github.project_tagline }}
 
-| Repository | Default Branch | Lint (default) | Render (all) |
-| --- | --- | --- | --- |
-| [nmos](https://github.com/AMWA-TV/nmos) | master | <a href="https://travis-ci.com/AMWA-TV/nmos?branch=master"><img src="https://travis-ci.com/AMWA-TV/nmos.svg?branch=master" width="100"/></a> | <a href="https://travis-ci.com/AMWA-TV/nmos?branch=gh-pages"><img src="https://travis-ci.com/AMWA-TV/nmos.svg?branch=gh-pages" width="100"/></a> |
+[![Build Status](https://travis-ci.com/AMWA-TV/nmos.svg?branch=master)](https://travis-ci.com/AMWA-TV/nmos)
+
 
 
 ---
@@ -24,18 +23,19 @@ The table below lists the current specifications and provides links to their rep
 The [NMOS API Testing Tool](https://amwa-tv.github.io/nmos-testing) supports the majority of these specifications.
 
 Id | Name  | Spec Status | Version(s) | Repository
---|---|---|---|--
+:--:|:---:|:---:|:---:|:--:
 IS-04 | [Discovery & Registration](https://amwa-tv.github.io/nmos-discovery-registration) | AMWA Specification (Stable) | [v1.3](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.3/) [↓](https://github.com/AMWA-TV/nmos-discovery-registration/releases/tag/v1.3)<br/>[v1.2.2](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.2.2/) [↓](https://github.com/AMWA-TV/nmos-discovery-registration/releases/tag/v1.2.2)<br/>[v1.1.3](https://amwa-tv.github.io/nmos-discovery-registration/tags/v1.1.3/) [↓](https://github.com/AMWA-TV/nmos-discovery-registration/releases/tag/v1.1.3) |[nmos-discovery-registration](https://github.com/AMWA-TV/nmos-discovery-registration)
 IS-05 | [Device Connection Management](https://amwa-tv.github.io/nmos-device-connection-management) | AMWA Specification (Stable) | [v1.1](https://amwa-tv.github.io/nmos-device-connection-management/tags/v1.1/) [↓](https://github.com/AMWA-TV/nmos-device-connection-management/releases/tag/v1.1)<br/>[v1.0.2](https://amwa-tv.github.io/nmos-device-connection-management/tags/v1.0.2/) [↓](https://github.com/AMWA-TV/nmos-device-connection-management/releases/tag/v1.0.2) |[nmos-device-connection-management](https://github.com/AMWA-TV/nmos-device-connection-management)
 IS-06 | [Network Control](https://amwa-tv.github.io/nmos-network-control) | AMWA Specification | [v1.0](https://amwa-tv.github.io/nmos-network-control/tags/v1.0/) [↓](https://github.com/AMWA-TV/nmos-network-control/releases/tag/v1.0)| [nmos-network-control](https://github.com/AMWA-TV/nmos-network-control)
 IS-07 | [Event & Tally](https://amwa-tv.github.io/nmos-event-tally) | AMWA Specification | [v1.0.1](https://amwa-tv.github.io/nmos-event-tally/tags/v1.0.1/) [↓](https://github.com/AMWA-TV/nmos-event-tally/releases/tag/v1.0.1)| [nmos-event-tally](https://github.com/AMWA-TV/nmos-event-tally)
 IS-08 | [Audio Channel Mapping](https://amwa-tv.github.io/nmos-audio-channel-mapping/) | AMWA Specification | [v1.0](https://amwa-tv.github.io/nmos-audio-channel-mapping/tags/v1.0/) [↓](https://github.com/AMWA-TV/nmos-audio-channel-mapping/releases/tag/v1.0) | [nmos-audio-channel-mapping](https://github.com/AMWA-TV/nmos-audio-channel-mapping)
-IS-09 | [System Parameters](https://amwa-tv.github.io/nmos-system) | Work In Progress | | [nmos-system](https://github.com/AMWA-TV/nmos-system)
+IS-09 | [System Parameters](https://amwa-tv.github.io/nmos-system) | AMWA Specification | [v1.0](https://amwa-tv.github.io/nmos-system/tags/v1.0) [↓](https://github.com/AMWA-TV/nmos-system/releases/tag/v1.0) | [nmos-system](https://github.com/AMWA-TV/nmos-system)
 IS-10 | [Authorization](https://amwa-tv.github.io/nmos-authorization) | Work In Progress | | [nmos-authorization](https://github.com/AMWA-TV/nmos-authorization)
 MS-04 | [ID & Timing Model](https://amwa-tv.github.io/nmos-id-timing-model/) | Work In Progress | | [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model)
 BCP-002-01 | [Natural Grouping](https://amwa-tv.github.io/nmos-grouping/branches/master/best-practice-natural-grouping.html) | AMWA Specification | | [nmos-grouping](https://github.com/AMWA-TV/nmos-grouping)
-BCP-003-01 | [API Security: Communications](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/best-practice-secure-comms.html) | AMWA Specification | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
-BCP-003-02 | [API Security: Authorization](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/best-practice-authorization.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
+BCP-003-01 | [Securing Communications in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-01-securing-communications.html) | AMWA Specification | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
+BCP-003-02 | [Authorization in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-02-authorization.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
+BCP-003-03 | [Certificate Provisioning in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-03-certificate-provisioning.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
 n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/) | Continuing  | | [nmos-parameter-registers](https://github.com/AMWA-TV/nmos-parameter-registers)
 
 
@@ -47,5 +47,5 @@ n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/)
 - [FAQ](branches/master/FAQ.md)
 - [Glossary](branches/master/Glossary.md)
 - [Legacy Technical Overview](branches/master/Legacy_Technical_Overview.md)
-- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
 - [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
+- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
