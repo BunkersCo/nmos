@@ -20,8 +20,8 @@ IS-09 | [System Parameters](https://amwa-tv.github.io/nmos-system) | AMWA Specif
 IS-10 | [Authorization](https://amwa-tv.github.io/nmos-authorization) | Work In Progress | | [nmos-authorization](https://github.com/AMWA-TV/nmos-authorization)
 MS-04 | [ID & Timing Model](https://amwa-tv.github.io/nmos-id-timing-model/) | Work In Progress | | [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model)
 BCP-002-01 | [Natural Grouping](https://amwa-tv.github.io/nmos-grouping/branches/master/best-practice-natural-grouping.html) | AMWA Specification | | [nmos-grouping](https://github.com/AMWA-TV/nmos-grouping)
-BCP-003-01 | [Securing Communications in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-01-securing-communications.html) | AMWA Specification | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
-BCP-003-02 | [Authorization in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-02-authorization.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
-BCP-003-03 | [Certificate Provisioning in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-03-certificate-provisioning.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
+BCP-003-01 | [Securing Communications in NMOS Systems](https://amwa-tv.github.io/nmos-secure-communication) | AMWA Specification | | [nmos-secure-communication](https://github.com/AMWA-TV/nmos-secure-communication)
+BCP-003-02 | [Authorization in NMOS Systems](https://amwa-tv.github.io/nmos-authorization-practice) | Work In Progress | | [nmos-authorization-practice](https://github.com/AMWA-TV/nmos-authorization-practice)
+BCP-003-03 | [Certificate Provisioning in NMOS Systems](https://amwa-tv.github.io/nmos-certificate-provisioning) | Work In Progress | | [nmos-certificate-provisioning](https://github.com/AMWA-TV/nmos-certificate-provisioning)
 n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/) | Continuing  | | [nmos-parameter-registers](https://github.com/AMWA-TV/nmos-parameter-registers)
 

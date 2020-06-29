@@ -2,9 +2,8 @@
 
 # {{ site.github.project_tagline }}
 
-| Repository | Default Branch | Lint (default) | Render (all) |
-| --- | --- | --- | --- |
-| [nmos](https://github.com/AMWA-TV/nmos) | master | <a href="https://travis-ci.com/AMWA-TV/nmos?branch=master"><img src="https://travis-ci.com/AMWA-TV/nmos.svg?branch=master" width="100"/></a> | <a href="https://travis-ci.com/AMWA-TV/nmos?branch=gh-pages"><img src="https://travis-ci.com/AMWA-TV/nmos.svg?branch=gh-pages" width="100"/></a> |
+[![Build Status](https://travis-ci.com/AMWA-TV/nmos.svg?branch=master)](https://travis-ci.com/AMWA-TV/nmos)
+
 
 
 ---
@@ -34,9 +33,9 @@ IS-09 | [System Parameters](https://amwa-tv.github.io/nmos-system) | AMWA Specif
 IS-10 | [Authorization](https://amwa-tv.github.io/nmos-authorization) | Work In Progress | | [nmos-authorization](https://github.com/AMWA-TV/nmos-authorization)
 MS-04 | [ID & Timing Model](https://amwa-tv.github.io/nmos-id-timing-model/) | Work In Progress | | [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model)
 BCP-002-01 | [Natural Grouping](https://amwa-tv.github.io/nmos-grouping/branches/master/best-practice-natural-grouping.html) | AMWA Specification | | [nmos-grouping](https://github.com/AMWA-TV/nmos-grouping)
-BCP-003-01 | [Securing Communications in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-01-securing-communications.html) | AMWA Specification | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
-BCP-003-02 | [Authorization in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-02-authorization.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
-BCP-003-03 | [Certificate Provisioning in NMOS Systems](https://amwa-tv.github.io/nmos-api-security/branches/v1.0-dev/bcp-003-03-certificate-provisioning.html) | Work In Progress | | [nmos-api-security](https://github.com/AMWA-TV/nmos-api-security)
+BCP-003-01 | [Securing Communications in NMOS Systems](https://amwa-tv.github.io/nmos-secure-communication) | AMWA Specification | | [nmos-secure-communication](https://github.com/AMWA-TV/nmos-secure-communication)
+BCP-003-02 | [Authorization in NMOS Systems](https://amwa-tv.github.io/nmos-authorization-practice) | Work In Progress | | [nmos-authorization-practice](https://github.com/AMWA-TV/nmos-authorization-practice)
+BCP-003-03 | [Certificate Provisioning in NMOS Systems](https://amwa-tv.github.io/nmos-certificate-provisioning) | Work In Progress | | [nmos-certificate-provisioning](https://github.com/AMWA-TV/nmos-certificate-provisioning)
 n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/) | Continuing  | | [nmos-parameter-registers](https://github.com/AMWA-TV/nmos-parameter-registers)
 
 
@@ -48,5 +47,5 @@ n/a | [Parameter Registers](https://amwa-tv.github.io/nmos-parameter-registers/)
 - [FAQ](branches/master/FAQ.md)
 - [Glossary](branches/master/Glossary.md)
 - [Legacy Technical Overview](branches/master/Legacy_Technical_Overview.md)
-- [NMOS-Solutions](branches/master/NMOS-Solutions.md)
 - [NMOS Technical Overview](branches/master/NMOS_Technical_Overview.md)
+- [NMOS-Solutions](branches/master/NMOS-Solutions.md)

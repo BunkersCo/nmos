@@ -19,6 +19,9 @@ for repo in \
     nmos-authorization \
     nmos-grouping \
     nmos-api-security \
+    nmos-secure-communication \
+    nmos-authorization-practice \
+    nmos-certificate-provisioning \
     nmos-id-timing-model \
     nmos-parameter-registers \
     nmos-template \
