@@ -1,0 +1,110 @@
+[
+    {
+        "id": "IS-04",
+        "name": "Discovery & Registration",
+        "repository": "nmos-discovery-registration",
+        "status": "AMWA Specification (Stable)",
+        "releases": [
+            "v1.3",
+            "v1.2.2",
+            "v1.1.3"
+        ]
+    },
+    {
+        "id": "IS-05",
+        "name": "Device Connection Management",
+        "repository": "nmos-device-connection-management",
+        "status": "AMWA Specification (Stable)",
+        "releases": [
+          "v1.1",
+          "v1.0.2"  
+        ]
+    },
+    {
+        "id": "IS-06",
+        "name": "Network Control",
+        "repository": "nmos-network-control",
+        "status": "AMWA Specification",
+        "releases": [
+            "v1.0"
+        ]
+    },
+    {
+        "id": "IS-07",
+        "name": "Event & Tally",
+        "repository": "nmos-event-tally",
+        "status": "AMWA Specification",
+        "releases": [
+            "v1.0.1"
+        ]
+    },
+    {
+        "id": "IS-08",
+        "name": "Audio Channel Mapping",
+        "repository": "nmos-audio-channel-mapping",
+        "status": "AMWA Specification (Stable)",
+        "releases": [
+            "v1.0.1"
+        ]
+    },
+    {
+        "id": "IS-09",
+        "name": "System Parameters",
+        "repository": "nmos-system",
+        "status": "AMWA Specification",
+        "releases": [
+            "v1.0"
+        ]
+    },
+    {
+        "id": "IS-10",
+        "name": "Authorization",
+        "repository": "nmos-authorization",
+        "status": "Work In Progress",
+        "releases": ""
+    },
+    {
+        "id": "MS-04",
+        "name": "ID & Timing Model",
+        "repository": "nmos-id-timing-model",
+        "status": "AMWA Specification",
+        "releases": [
+            "v1.0"
+        ]
+    },
+    {
+        "id": "BCP-002-01",
+        "name": "Natural Grouping",
+        "repository": "nmos-grouping",
+        "status": "AMWA Specification",
+        "releases": []
+    },
+    {
+        "id": "BCP-003-01",
+        "name": "Securing Communications in NMOS Systems",
+        "repository": "nmos-secure-communication",
+        "status": "AMWA Specification",
+        "releases": []
+    },
+    {
+        "id": "BCP-003-02",
+        "name": "Authorization in NMOS Systems",
+        "repository": "nmos-authorization-practice",
+        "status": "Work In Progress",
+        "releases": []
+    },
+    {
+        "id": "BCP-003-03",
+        "name": "Certificate Provisioning in NMOS Systems",
+        "repository": "nmos-certificate-provisioning",
+        "status": "Work In Progress",
+        "releases": []
+    },
+    {
+        "id": "n/a",
+        "name": "ParameterRegisters",
+        "repository": "nmos-parameter-registers",
+        "status": "Continuing",
+        "releases": []
+    }
+]
